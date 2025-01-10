@@ -783,7 +783,7 @@
         = COUNTDOWN CLOCK
     -------------------------------------------*/
     if ($("#clock").length) {
-        $('#clock').countdown('2025-01-24 03:00:00', function (event) {
+        $('#clock').countdown('2025-01-24 04:00:00', function (event) {
             var $this = $(this).html(event.strftime(''
                 // + '<div class="box"><div><div class="time">%m</div> <span>Month</span> </div></div>'
                 +
@@ -797,7 +797,7 @@
         = COUNTDOWN CLOCK
     -------------------------------------------*/
     if ($("#clock2").length) {
-        $('#clock2').countdown('2025-01-24 03:00:00', function (event) {
+        $('#clock2').countdown('2025-01-24 04:00:00', function (event) {
             var $this = $(this).html(event.strftime('' +
                 '<div class="box"><div><div class="time">%D</div> <span>أيام</span> </div></div>' +
                 '<div class="box"><div><div class="time">%H</div> <span>ساعات</span> </div></div>' +
